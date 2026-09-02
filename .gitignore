@@ -1,0 +1,17 @@
+# 依赖和构建产物（npm install / build 都会重新生成，不用入库）
+node_modules
+dist
+
+# 编辑器个人配置（每人习惯不同，不入库）
+.idea
+.vscode
+*.iml
+
+# 本地环境变量（如果有 .env 放本地密码/接口地址，千万别提交）
+.env
+.env.local
+.env.*.local
+
+# 日志和系统文件
+*.log
+.DS_Store
