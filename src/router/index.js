@@ -4,6 +4,7 @@ import Layout from '../views/Layout.vue'
 import DoctorList from '../views/doctor/DoctorList.vue'
 import ScheduleList from '../views/schedule/ScheduleList.vue'
 import ReservePage from '../views/source/ReservePage.vue'
+import ReserveList from '../views/reserve/ReserveList.vue'
 import RecommendPage from '../views/recommend/RecommendPage.vue'
 
 // 路由表：登录页是独立的；其余页面都套在 Layout（左侧菜单 + 顶栏）里面
@@ -17,6 +18,7 @@ const routes = [
       { path: 'doctor', component: DoctorList },
       { path: 'schedule', component: ScheduleList },
       { path: 'reserve', component: ReservePage },
+      { path: 'records', component: ReserveList },
       { path: 'recommend', component: RecommendPage }
     ]
   }

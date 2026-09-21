@@ -6,6 +6,7 @@
         <el-menu-item index="/doctor">医生管理</el-menu-item>
         <el-menu-item index="/schedule">排班管理</el-menu-item>
         <el-menu-item index="/reserve">挂号预约</el-menu-item>
+        <el-menu-item index="/records">预约记录</el-menu-item>
         <el-menu-item index="/recommend">智能导诊</el-menu-item>
       </el-menu>
     </el-aside>
